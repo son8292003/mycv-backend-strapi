@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_data",
+  "info": {
+    "name": "site-data"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "main": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main.main"
+    },
+    "resume": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume.resume"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_resume_resumes",
+  "info": {
+    "name": "resume",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "skillmessage": {
+      "type": "string"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "education.education"
+    },
+    "work": {
+      "type": "component",
+      "repeatable": true,
+      "component": "work.work"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.skills"
+    }
+  }
+}

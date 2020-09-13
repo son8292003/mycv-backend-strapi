@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_education_educations",
+  "info": {
+    "name": "education",
+    "icon": "user-graduate"
+  },
+  "options": {},
+  "attributes": {
+    "school": {
+      "type": "string"
+    },
+    "degree": {
+      "type": "string"
+    },
+    "graduated": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

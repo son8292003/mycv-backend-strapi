@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_address_addresses",
+  "info": {
+    "name": "address",
+    "icon": "clinic-medical"
+  },
+  "options": {},
+  "attributes": {
+    "street": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "collectionName": "components_main_mains",
+  "info": {
+    "name": "main",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "github": {
+      "type": "string"
+    },
+    "contactmessage": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "project": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "email": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "address.address"
+    },
+    "website": {
+      "type": "string"
+    },
+    "resumedownload": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social.social"
+    }
+  }
+}

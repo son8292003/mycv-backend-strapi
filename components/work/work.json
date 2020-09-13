@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_work_works",
+  "info": {
+    "name": "work",
+    "icon": "user-tie"
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "years": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

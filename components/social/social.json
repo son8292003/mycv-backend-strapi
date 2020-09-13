@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_social_socials",
+  "info": {
+    "name": "social",
+    "icon": "globe-americas"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "className": {
+      "type": "string"
+    }
+  }
+}
