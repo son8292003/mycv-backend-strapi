@@ -7,7 +7,7 @@
   "options": {},
   "attributes": {
     "skillmessage": {
-      "type": "string"
+      "type": "text"
     },
     "education": {
       "type": "component",
@@ -23,6 +23,11 @@
       "type": "component",
       "repeatable": true,
       "component": "skills.skills"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.projects"
     }
   }
 }

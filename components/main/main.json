@@ -13,7 +13,7 @@
       "type": "string"
     },
     "bio": {
-      "type": "string"
+      "type": "text"
     },
     "name": {
       "type": "string"
@@ -39,7 +39,7 @@
       "type": "string"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "address": {
       "type": "component",
