@@ -1,5 +1,5 @@
 # Strapi application
-This project is used as a CMS to provide api for my resume frontend project [https://github.com/son8292003/mycv-frontend-react](https://github.com/son8292003/mycv-frontend-react).
+This project is used as a headless CMS to provide data through api for my resume frontend project [https://github.com/son8292003/mycv-frontend-react](https://github.com/son8292003/mycv-frontend-react).
 
 ## Run Project
 ### 1. Clone the project
